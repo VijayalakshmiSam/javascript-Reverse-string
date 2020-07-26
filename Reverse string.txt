@@ -1,0 +1,10 @@
+let array=['h','e','l','l','o'];
+let start=0,end=array.length-1;
+while(st<end)
+{
+    let temp=array[start];
+    array[start]=array[end];
+    array[end]=temp;
+    start++; end--;
+}
+console.log(array);
